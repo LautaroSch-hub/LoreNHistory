@@ -1,0 +1,8 @@
+    html, body {
+            height: 100%; /* Asegura que tanto el html como el body ocupen el 100% de la altura */
+            margin: 0; /* Elimina cualquier margen por defecto */
+            background-image: url(https://res.cloudinary.com/dj8byz5uz/image/upload/v1726181141/5900022_neqxf0.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            }

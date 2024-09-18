@@ -1,0 +1,85 @@
+/* Ajustes generales */
+body {
+    font-family: "Montserrat", system-ui;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(221, 228, 221);
+}
+/* Estilos para el título */
+#NamePage {
+    color: rgb(105, 60, 145);   
+    font-size: 15px;
+    font-family:'Montserrat';
+    font-style: italic;
+    background-color: rgb(25, 250, 5);
+    padding: 10px;
+    margin: 0 5px;
+    border-radius: 10px;
+}
+/* Estilo para el h2 */
+h2 { 
+    color: rgb(0, 0, 0);
+    text-align: left;
+    font-family: 'montserrat';
+    font-style: italic;
+    text-transform: capitalize;
+    margin-top: 100px;
+    height: 1000px;
+    width: 1000px;
+}
+/* Enlaces */
+.link { 
+    color: rgb(105, 60, 145);
+    text-align: end;
+    margin: 0 5px;
+}
+/* Estilo para la imagen */
+.Logo { 
+    width: 110px;
+    height:auto;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(105, 60, 145);
+    border-bottom: 1px solid rgb(60, 21, 95);
+    width: 100%;
+}
+/* Estilos para el formulario */
+.formulario {
+    padding: 0px 10px;
+    font-size: 5px;
+}
+.formulario input[type="submit"]:hover {
+    background-color: rgb(25, 250, 5);
+    cursor: pointer;
+}
+.formulario input {
+    margin: 0 1px;
+}
+.busqueda {
+    padding: 5px;
+}
+/* Estilos para el formulario de búsqueda */
+.busqueda input[type="text"] {
+    padding: 2px;
+    font-size: 12px;
+    border-radius: 10px;
+}
+.busqueda input[type="submit"] {
+    padding: 1px 8px;
+    font-size: 14px;
+    background-color: rgb(25, 250, 5);
+    color: white;
+    border-color: rgb(2, 200, 3);
+    cursor: pointer;
+    border-radius: 10px;
+}
+#startPage {
+    display: flex;
+    height: 300px;
+}

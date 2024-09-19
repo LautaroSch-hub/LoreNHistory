@@ -1,7 +1,73 @@
-        html, body {
-            height: 100%; /* Asegura que tanto el html como el body ocupen el 100% de la altura */
-            margin: 0; /* Elimina cualquier margen por defecto */
-            background-image: url(https://res.cloudinary.com/dj8byz5uz/image/upload/v1726181436/runeterra-ashe-league-of-legends-video-games-wallpaper-preview_1_grbjss.jpg);
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;}
+html, body {
+    height: 100%; /* Asegura que tanto el html como el body ocupen el 100% de la altura */
+    margin: 0; /* Elimina cualquier margen por defecto */
+    background-image: url(https://res.cloudinary.com/dj8byz5uz/image/upload/v1726181436/runeterra-ashe-league-of-legends-video-games-wallpaper-preview_1_grbjss.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;}
+/* Estilos para el título */
+#NamePage {
+color: rgb(105, 60, 145);   
+font-size: 15px;
+font-family:'Montserrat';
+font-style: italic;
+background-color: rgb(25, 250, 5);
+padding: 10px;
+margin: 0 8px;
+border-radius: 10px;
+}
+/* Estilo para la barra de navegacion */ 
+.navbar {
+display: flex;
+align-items: center;
+justify-content: space-between;
+background-color: rgb(105, 60, 145);
+border-bottom: 1px solid rgb(60, 21, 95);
+width: 100%;
+}
+/* Estilo para la imagen */
+.Logo { 
+width: 110px;
+height:auto;
+}
+/* Estilos para el formulario */
+.formulario {
+padding: 0px 15px;
+font-size: 5px;
+}
+.formulario input[type="submit"]:hover {
+background-color: rgb(25, 250, 5);
+cursor: pointer;
+}
+.formulario input {
+margin: 0 1px;
+}
+/* Estilos para el formulario de búsqueda */
+.busqueda {
+display: flex;
+}
+.busqueda input[type="text"] {
+padding: 0 30px;
+font-size: 15px;
+border-radius: 10px 0px 0px 10px;
+margin-right: 0;
+height: 27px;
+width: 300px;
+border: none;
+background-color:rgb(66, 232, 51) ;
+}
+.busqueda input[type="submit"] {
+padding: 2px 8px;
+font-size: 14px;
+background-color: rgb(25, 250, 5);
+color: rgb(105, 60, 145);
+cursor: pointer;
+border-radius: 0 10px 10px 0;
+border: none;
+height: 27px;
+}
+/* division en columnas de la pagina*/
+#startPage {
+display: flex;
+height: 300px;
+}

@@ -16,31 +16,10 @@ body {
     font-style: italic;
     background-color: rgb(25, 250, 5);
     padding: 10px;
-    margin: 0 5px;
+    margin: 0 8px;
     border-radius: 10px;
 }
-/* Estilo para el h2 */
-h2 { 
-    color: rgb(0, 0, 0);
-    text-align: left;
-    font-family: 'montserrat';
-    font-style: italic;
-    text-transform: capitalize;
-    margin-top: 100px;
-    height: 1000px;
-    width: 1000px;
-}
-/* Enlaces */
-.link { 
-    color: rgb(105, 60, 145);
-    text-align: end;
-    margin: 0 5px;
-}
-/* Estilo para la imagen */
-.Logo { 
-    width: 110px;
-    height:auto;
-}
+/* Estilo para la barra de navegacion */ 
 .navbar {
     display: flex;
     align-items: center;
@@ -49,9 +28,14 @@ h2 {
     border-bottom: 1px solid rgb(60, 21, 95);
     width: 100%;
 }
+/* Estilo para la imagen */
+.Logo { 
+    width: 110px;
+    height:auto;
+}
 /* Estilos para el formulario */
 .formulario {
-    padding: 0px 10px;
+    padding: 0px 15px;
     font-size: 5px;
 }
 .formulario input[type="submit"]:hover {
@@ -61,25 +45,46 @@ h2 {
 .formulario input {
     margin: 0 1px;
 }
-.busqueda {
-    padding: 5px;
-}
 /* Estilos para el formulario de búsqueda */
+.busqueda {
+    display: flex;
+}
 .busqueda input[type="text"] {
-    padding: 2px;
-    font-size: 12px;
-    border-radius: 10px;
+    padding: 0 30px;
+    font-size: 15px;
+    border-radius: 10px 0px 0px 10px;
+    margin-right: 0;
+    height: 27px;
+    width: 300px;
+    border: none;
+    background-color:rgb(66, 232, 51) ;
 }
 .busqueda input[type="submit"] {
-    padding: 1px 8px;
+    padding: 2px 8px;
     font-size: 14px;
     background-color: rgb(25, 250, 5);
-    color: white;
-    border-color: rgb(2, 200, 3);
+    color: rgb(105, 60, 145);
     cursor: pointer;
-    border-radius: 10px;
+    border-radius: 0 10px 10px 0;
+    border: none;
+    height: 27px;
 }
+/* division en columnas de la pagina*/
 #startPage {
     display: flex;
     height: 300px;
+}
+/* Estilo para el h2 */
+h2 { 
+    color: rgb(0, 0, 0);    
+    font-family: 'montserrat';
+    font-style: italic;
+    text-transform: capitalize;
+    margin-top: 100px;
+}
+/* Enlaces */
+.link { 
+    color: rgb(105, 60, 145);
+    text-align: end;
+    margin: 0 5px;
 }
